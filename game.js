@@ -7,6 +7,7 @@ function nextSequence() {
     let randomNumber = Math.floor(Math.random() * 4);
     return randomNumber;
 }
+
 let randomChosenColour = buttonColours[nextSequence()];
 //add random color chosen to game pattern
 gamePattern.push(randomChosenColour);
